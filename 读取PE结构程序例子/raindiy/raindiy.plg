@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: raindiy - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/raindiy.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\桌面\raindiy\raindiy.rc"" 
+Creating temporary file "C:\TEMP\RSP199.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/raindiy.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\raindiy\main.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP199.tmp" 
+Creating temporary file "C:\TEMP\RSP19A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/raindiy.pdb" /machine:I386 /out:"Release/raindiy.exe" 
+".\Release\create.obj"
+".\Release\DerverLoad.obj"
+".\Release\main.obj"
+".\Release\myprocess.obj"
+".\Release\MyProcess1.obj"
+".\Release\OpenMyFile.obj"
+".\Release\raindiy.obj"
+".\Release\rainmain.obj"
+".\Release\RainPe.obj"
+".\Release\RainService.obj"
+".\Release\RainSSDT.obj"
+".\Release\RainStatus.obj"
+".\Release\ReadPE.obj"
+".\Release\reateListView.obj"
+".\Release\rightmenu.obj"
+".\Release\SDTShadowRestore.obj"
+".\Release\Shellicon.obj"
+".\Release\StdAfx.obj"
+".\Release\raindiy.res"
+".\res\DETOURS.lib"
+".\res\SkinMagicLib.lib"
+]
+Creating command line "link.exe @C:\TEMP\RSP19A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+C:\Documents and Settings\Administrator\桌面\raindiy\main.cpp(99) : warning C4101: 'dwThreadId1' : unreferenced local variable
+C:\Documents and Settings\Administrator\桌面\raindiy\main.cpp(98) : warning C4101: 'incon' : unreferenced local variable
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+Creating temporary file "C:\TEMP\RSP19C.tmp" with contents
+[
+/nologo /o"Release/raindiy.bsc" 
+".\Release\create.sbr"
+".\Release\DerverLoad.sbr"
+".\Release\main.sbr"
+".\Release\myprocess.sbr"
+".\Release\MyProcess1.sbr"
+".\Release\OpenMyFile.sbr"
+".\Release\raindiy.sbr"
+".\Release\rainmain.sbr"
+".\Release\RainPe.sbr"
+".\Release\RainService.sbr"
+".\Release\RainSSDT.sbr"
+".\Release\RainStatus.sbr"
+".\Release\ReadPE.sbr"
+".\Release\reateListView.sbr"
+".\Release\rightmenu.sbr"
+".\Release\SDTShadowRestore.sbr"
+".\Release\Shellicon.sbr"
+".\Release\StdAfx.sbr"]
+Creating command line "bscmake.exe @C:\TEMP\RSP19C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+raindiy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,316 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DOMAIN DIALOG DISCARDABLE  0, 0, 205, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "进程操作"
+FONT 10, "Trebuchet MS"
+BEGIN
+    DEFPUSHBUTTON   "...",IDC_LOAD,155,10,12,10
+    LISTBOX         IDC_LIST2,13,128,178,70,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "进程加载的DLL",IDC_STATIC,7,119,191,95
+    GROUPBOX        "进程名称",IDC_STATIC,7,28,191,85
+    CONTROL         "List3",IDC_LIST3,"SysListView32",LVS_REPORT | 
+                    LVS_SHAREIMAGELISTS | WS_BORDER | WS_TABSTOP,12,37,181,
+                    72
+    EDITTEXT        IDC_FILEPATH,46,9,104,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "注入",IDC_ZHURU,169,10,23,10
+    LTEXT           "进程总数:",IDC_STATIC,13,203,35,8
+    LTEXT           "0",IDC_NUM,51,203,58,8
+    LTEXT           "DLL注入:",IDC_STATIC,11,11,32,8
+END
+
+IDD_RAINMAIN DIALOG DISCARDABLE  200, 100, 250, 300
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Rain Shell"
+MENU IDR_MENU2
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "扫描",IDOK,199,23,25,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,130,236,8
+    COMBOBOX        IDC_MYDRIVER,54,25,32,95,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "系统磁盘：",IDC_STATIC,16,27,41,8
+    LTEXT           "",IDC_D_STRING,22,48,209,68
+    LTEXT           "扫描特诊：",IDC_STATIC,91,27,41,8
+    EDITTEXT        IDC_DEZHEN,132,25,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开",IDC_BUTTON1,201,143,30,14
+    LISTBOX         IDC_LIST1,10,185,233,98,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "扫描的文件：",IDC_STATIC,12,170,49,8
+    LTEXT           "",IDC_SERC_STR,5,120,241,8
+    CONTROL         "",IDC_FILE_SUM,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,13,
+                    149,147,8
+END
+
+IDD_LODSYS DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "驱动加载工具"
+FONT 10, "Trebuchet MS"
+BEGIN
+    DEFPUSHBUTTON   "加载",ID_SYS_LOAD,16,66,30,14,WS_DISABLED
+    PUSHBUTTON      "卸载",ID_SYS_UNLOAD,141,66,31,14,WS_DISABLED
+    PUSHBUTTON      "启动",IDC_SYS_START,58,66,25,14,WS_DISABLED
+    PUSHBUTTON      "关闭",IDC_SYS_CLOSE,97,66,25,14,WS_DISABLED
+    EDITTEXT        IDC_SYSFILEPATH,16,31,131,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "...",IDC_SYS_BLOAD,154,31,21,14
+END
+
+IDD_SSDT_MAIN DIALOG DISCARDABLE  0, 0, 269, 273
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SSDT描述表"
+FONT 10, "Trebuchet MS"
+BEGIN
+    CONTROL         "List1",IDC_SSDT_LIST,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,9,9,253,257
+END
+
+IDD_SYS_STATUS DIALOG DISCARDABLE  0, 0, 193, 227
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "内核驱动加载状态"
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_SYS_STATUS_LIST,7,7,179,213,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DOMIAN_PE DIALOG DISCARDABLE  0, 0, 415, 320
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PE查看器"
+FONT 10, "Trebuchet MS"
+BEGIN
+    DEFPUSHBUTTON   "...",IDC_OPEN_PE,297,16,17,11
+    EDITTEXT        IDC_ET_PE,25,16,263,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "PE Infors",IDC_STATIC,20,41,126,125
+    LTEXT           "入口点：",IDC_STATIC,22,53,38,8
+    EDITTEXT        IDC_ENTRY,68,51,62,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "大小：",IDC_STATIC,22,69,28,8
+    EDITTEXT        IDC_PE_SIZE,68,67,62,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "基地址：",IDC_STATIC,22,85,38,8
+    EDITTEXT        IDC_PE_BASE,68,83,62,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "节点对齐：",IDC_STATIC,22,101,47,8
+    EDITTEXT        IDC_PE_SECION,68,99,62,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "文件对齐：",IDC_STATIC,22,117,47,8
+    EDITTEXT        IDC_PE_FILE,68,115,62,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "效验和：",IDC_STATIC,22,133,38,8
+    EDITTEXT        IDC_PE_CHECKENUM,68,131,62,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "DataDirectory",IDC_PE_DATA,21,249,60,14
+    EDITTEXT        IDC_DATA_SECTION,163,46,234,125,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DATA_PE DIALOG DISCARDABLE  0, 0, 291, 261
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PE节块"
+FONT 10, "System"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DOMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_RAINMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_LODSYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SSDT_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_SYS_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 186
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_DOMIAN_PE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 408
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 313
+    END
+
+    IDD_DATA_PE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "listbox"
+    BEGIN
+        MENUITEM "复制本行",                    ID_MENU_COPY
+        MENUITEM "复制全部",                    ID_MENUALLCOPY
+        MENUITEM "卸载DLL",                     ID_MENU_DLL
+    END
+    POPUP "listview"
+    BEGIN
+        MENUITEM "复制进程名",                  ID_MENU_1
+        MENUITEM "复制父进程",                  ID_MENU_2
+        MENUITEM "复制进程ID",                  ID_MENU_3
+        MENUITEM "复制本行",                    ID_MENU_4
+        MENUITEM "复制全部",                    ID_MENU_5
+        MENUITEM "结束进程",                    ID_MENU_6
+    END
+    POPUP "icon"
+    BEGIN
+        MENUITEM "关于",                        ID_MENUITEM40018
+        MENUITEM "关闭",                        ID_MENU_RAIN_CLOSE
+    END
+END
+
+IDR_MENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP "  文件   "
+    BEGIN
+        MENUITEM "PE查看器",                    ID_MENUITEM40014
+    END
+    POPUP "   驱动   "
+    BEGIN
+        MENUITEM "驱动加载",                    ID_MENULOADSYS
+        MENUITEM "驱动状态",                    ID_MENUITEM40016
+    END
+    POPUP "    进程    "
+    BEGIN
+        MENUITEM "操作进程",                    ID_MENUPROCESS
+    END
+    POPUP "   内核状态   "
+    BEGIN
+        MENUITEM "SSDT",                        ID_MENUITEM40017
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SKINMAGIC
+//
+
+XPBLUE                  SKINMAGIC DISCARDABLE   "res\\corona.smf"
+KING                    SKINMAGIC DISCARDABLE   "res\\King.smf"
+DER                     SKINMAGIC DISCARDABLE   "res\\Devior.smf"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_RAIN                ICON    DISCARDABLE     "res\\rain.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon2.ico"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
