@@ -2,7 +2,7 @@
 // Microsoft Visual C++ generated include file.
 // Used by example2.rc
 //
-
+#include <Windows.h>
 #define IDD_MAIN                    100
 #define IDC_OK                      101
 #define IDC_CANCEL                  102
