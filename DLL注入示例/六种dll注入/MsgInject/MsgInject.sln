@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MsgInject", "MsgInject.vcxproj", "{756B0887-4389-4D09-96F2-511C54A1BFC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MsgWaiGua", "MsgWaiGua\MsgWaiGua.vcxproj", "{4F9125A2-89FF-419A-AC47-E1430D28C1DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756B0887-4389-4D09-96F2-511C54A1BFC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{756B0887-4389-4D09-96F2-511C54A1BFC1}.Debug|Win32.Build.0 = Debug|Win32
+		{756B0887-4389-4D09-96F2-511C54A1BFC1}.Release|Win32.ActiveCfg = Release|Win32
+		{756B0887-4389-4D09-96F2-511C54A1BFC1}.Release|Win32.Build.0 = Release|Win32
+		{756B0887-4389-4D09-96F2-511C54A1BFC1}.Template|Win32.ActiveCfg = Release|Win32
+		{756B0887-4389-4D09-96F2-511C54A1BFC1}.Template|Win32.Build.0 = Release|Win32
+		{4F9125A2-89FF-419A-AC47-E1430D28C1DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F9125A2-89FF-419A-AC47-E1430D28C1DF}.Debug|Win32.Build.0 = Debug|Win32
+		{4F9125A2-89FF-419A-AC47-E1430D28C1DF}.Release|Win32.ActiveCfg = Release|Win32
+		{4F9125A2-89FF-419A-AC47-E1430D28C1DF}.Release|Win32.Build.0 = Release|Win32
+		{4F9125A2-89FF-419A-AC47-E1430D28C1DF}.Template|Win32.ActiveCfg = Template|Win32
+		{4F9125A2-89FF-419A-AC47-E1430D28C1DF}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImeDllLoader", "ImeDllLoader\ImeDllLoader.vcxproj", "{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImeInject", "ImeInject\ImeInject.vcxproj", "{6D2B2938-2B2B-406B-8A80-1414336A3861}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InjectDll", "InjectDll\InjectDll.vcxproj", "{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}.Debug|Win32.Build.0 = Debug|Win32
+		{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}.Release|Win32.ActiveCfg = Release|Win32
+		{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}.Release|Win32.Build.0 = Release|Win32
+		{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}.Template|Win32.ActiveCfg = Release|Win32
+		{997E6EAB-D9BF-48A4-B8FE-EB9975358CF3}.Template|Win32.Build.0 = Release|Win32
+		{6D2B2938-2B2B-406B-8A80-1414336A3861}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D2B2938-2B2B-406B-8A80-1414336A3861}.Debug|Win32.Build.0 = Debug|Win32
+		{6D2B2938-2B2B-406B-8A80-1414336A3861}.Release|Win32.ActiveCfg = Release|Win32
+		{6D2B2938-2B2B-406B-8A80-1414336A3861}.Release|Win32.Build.0 = Release|Win32
+		{6D2B2938-2B2B-406B-8A80-1414336A3861}.Template|Win32.ActiveCfg = Template|Win32
+		{6D2B2938-2B2B-406B-8A80-1414336A3861}.Template|Win32.Build.0 = Template|Win32
+		{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}.Debug|Win32.Build.0 = Debug|Win32
+		{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}.Release|Win32.ActiveCfg = Release|Win32
+		{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}.Release|Win32.Build.0 = Release|Win32
+		{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}.Template|Win32.ActiveCfg = Template|Win32
+		{A174ED70-2E8C-4DB0-B8FF-B4E6A35BCC0A}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

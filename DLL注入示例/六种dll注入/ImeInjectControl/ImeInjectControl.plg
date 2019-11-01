@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImeInjectControl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSPA550.tmp" with contents
+[
+/nologo /ML /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /Yu/Fo"Release/" /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\ImeInjectControl\ImeInjectControl.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\ImeInjectControl\pipe.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\ImeInjectControl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSPA550.tmp" 
+Creating temporary file "C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSPA551.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Imm32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ImeInjectControl.pdb" /debug /machine:I386 /out:"Release/ImeInjectControl.exe" 
+".\Release\ImeInjectControl.obj"
+".\Release\pipe.obj"
+".\Release\StdAfx.obj"
+]
+Creating command line "link.exe @C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSPA551.tmp"
+<h3>Output Window</h3>
+Compiling...
+ImeInjectControl.cpp
+D:\Program Files\Microsoft Visual Studio\MyProjects\ImeInjectControl\ImeInjectControl.cpp(67) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+pipe.cpp
+D:\Program Files\Microsoft Visual Studio\MyProjects\ImeInjectControl\pipe.cpp(86) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+StdAfx.cpp
+D:\Program Files\Microsoft Visual Studio\MyProjects\ImeInjectControl\StdAfx.cpp(9) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ImeInjectControl.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
