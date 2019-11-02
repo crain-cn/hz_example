@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookInjEx", "HookInjEx\HookInjEx.vcxproj", "{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683} = {C98B2C25-EE00-70D0-BFF2-4FA0F5905683}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookInjEx_DLL", "HookInjEx_DLL\HookInjEx_DLL.vcxproj", "{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}.Debug|Win32.Build.0 = Debug|Win32
+		{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}.Release|Win32.ActiveCfg = Release|Win32
+		{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}.Release|Win32.Build.0 = Release|Win32
+		{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}.Template|Win32.ActiveCfg = Release|Win32
+		{CDA1B751-DA90-C6C2-F7B5-E41DAA44F42A}.Template|Win32.Build.0 = Release|Win32
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}.Debug|Win32.Build.0 = Debug|Win32
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}.Release|Win32.ActiveCfg = Release|Win32
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}.Release|Win32.Build.0 = Release|Win32
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}.Template|Win32.ActiveCfg = Template|Win32
+		{C98B2C25-EE00-70D0-BFF2-4FA0F5905683}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

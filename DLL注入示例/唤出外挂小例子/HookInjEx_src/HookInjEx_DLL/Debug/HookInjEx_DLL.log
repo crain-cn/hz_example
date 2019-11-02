@@ -1,0 +1,21 @@
+﻿生成启动时间为 2019/11/2 17:47:51。
+     1>项目“C:\Users\tal\Desktop\唤出外挂小例子\HookInjEx_src\HookInjEx_DLL\HookInjEx_DLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D INJECT_EX_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HookInjEx_DLL.cpp
+         HookInjEx_DLL.cpp
+     1>c:\users\tal\desktop\唤出外挂小例子\hookinjex_src\hookinjex_dll\hookinjex_dll.cpp(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Users\tal\Desktop\唤出外挂小例子\HookInjEx_src\HookInjEx_DLL\.\Debug\HookInjEx_DLL.dll) does not match the Linker's OutputFile property value (C:\Users\tal\Desktop\唤出外挂小例子\HookInjEx_src\HookInjEx\Debug\HookInjEx.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(HookInjEx_DLL) does not match the Linker's OutputFile property value (HookInjEx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../HookInjEx/Debug/HookInjEx.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\HookInjEx_DLL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\HookInjEx.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug\rain.res
+         .\Debug\HookInjEx_DLL.obj
+         LINK : 没有找到 ../HookInjEx/Debug/HookInjEx.dll 或上一个增量链接没有生成它；正在执行完全链接
+     1>HookInjEx_DLL.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 .\Debug\HookInjEx.lib 和对象 .\Debug\HookInjEx.exp
+         HookInjEx_DLL.vcxproj -> C:\Users\tal\Desktop\唤出外挂小例子\HookInjEx_src\HookInjEx_DLL\.\Debug\HookInjEx_DLL.dll
+     1>已完成生成项目“C:\Users\tal\Desktop\唤出外挂小例子\HookInjEx_src\HookInjEx_DLL\HookInjEx_DLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.70

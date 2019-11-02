@@ -1,0 +1,3 @@
+#include <windows.h>
+//Ñô¹â»ùµØÖ·
+#define SUNNY_NUMBER_ADDR	0x006A9EC0
